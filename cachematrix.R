@@ -1,4 +1,4 @@
-## The basic concepts and procedure are the same as those in the examples. 
+## The basic concepts and procedures are the same as those in the examples. 
 ## We need two functions to realize our goals.
 
 ## The makeCachematix function returns a list consists of functions designed for
@@ -18,9 +18,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The cacheSolve function will return the inverse matrix with or withour 
+## The cacheSolve function will return the inverse matrix with or without 
 ## evaluation. If the inverse matrix is already chached, time is saved.
-##Time is money!! :)
+## Time is money!! :)
 
 cacheSolve <- function(x,...) {
         inverse <- x$getinverse()
